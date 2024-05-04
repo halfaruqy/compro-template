@@ -9,7 +9,7 @@ let mobileNavClicked = false
 const addNavClickedClass = ["before:-top-1/2", "before:rotate-45","after:top-1/2", "after:-rotate-45"]
 const removeNavClickedClass = ["after:top-2", "before:-top-2", "h-[3px]"]
 
-const addShowMobileNavClass = ["w-full", "translate-x-0", "opacity-1", "pointer-events-auto", "visible","backdrop-blur-sm"]
+const addShowMobileNavClass = ["w-full", "translate-x-0", "opacity-1", "pointer-events-auto", "visible","backdrop-blur-md", "bg-white/60"]
 const removeShowMobileClass = ["w-0","-translate-x-full", "opacity-0", "pointer-events-none", "invisible"]
 
 
