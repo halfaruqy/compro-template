@@ -6,6 +6,6 @@
   },
   "scripts": {
     "dev": "tailwindcss build -i src/assets/css/style.css -o src/assets/css/output.css --watch",
-    "build": "tailwindcss build -i src/assets/css/style.css -o src/assets/css/output.css"
+    "build": "tailwindcss build -i src/assets/css/style.css -o src/assets/css/output.css --minify"
   }
 }
