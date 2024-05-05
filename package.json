@@ -2,10 +2,16 @@
   "devDependencies": {
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
+    "prettier": "3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.3"
   },
   "scripts": {
     "dev": "tailwindcss build -i src/assets/css/style.css -o src/assets/css/output.css --watch",
-    "build": "tailwindcss build -i src/assets/css/style.css -o src/assets/css/output.css --minify"
+    "build": "tailwindcss build -i src/assets/css/style.css -o src/assets/css/output.css --minify",
+    "format": "prettier ./src/index.html --write"
+  },
+  "dependencies": {
+    "@tailwindcss/container-queries": "^0.1.1"
   }
 }

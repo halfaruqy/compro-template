@@ -9,15 +9,16 @@ module.exports = {
     },
     screens: {
       // => @media (min-width: ... px) { ... }
-      'xs': '375px',
-      'base': '500px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1440px',
+      xs: "375px",
+      base: "500px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1440px",
     },
   },
-  plugins: [],
-}
-
+  plugins: [
+    require('@tailwindcss/container-queries'),
+  ],
+};
